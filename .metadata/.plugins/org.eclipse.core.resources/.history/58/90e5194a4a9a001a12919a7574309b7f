@@ -1,0 +1,21 @@
+package main;
+
+public class index {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/*Definir dos o más metodos con el mismo 
+		 * nombre en la misma clase
+		 * Para que? Para tener comportamientos  distintos*/
+		
+		suma sum =  new suma();
+		int num1;
+		int num2;
+		
+		sum.suma(num1, num2);
+		
+		
+	}
+
+}

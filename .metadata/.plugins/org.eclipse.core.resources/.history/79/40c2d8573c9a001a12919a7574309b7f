@@ -1,0 +1,16 @@
+package main;
+
+public class modAcceso {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		usuario user = new usuario();
+		user.usuario = "Dieguito23";
+		user.pass = "megustaelqueso";
+		
+		user.saludo();
+
+	}
+
+}

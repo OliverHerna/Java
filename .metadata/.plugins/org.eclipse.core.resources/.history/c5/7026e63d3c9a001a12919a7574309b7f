@@ -1,0 +1,10 @@
+package main;
+
+public class usuario {
+	String usuario;
+	String pass;
+	
+	void saludo() {
+		System.out.println("Hola mi nombre es: " +this.usuario);
+	}
+}

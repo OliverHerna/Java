@@ -1,0 +1,18 @@
+package main;
+
+public class usuario {
+	/*Tipos de acceso
+	 * 1- default
+	 * 2- public
+	 * 3- private
+	 * 4- protected
+	 * 
+	 * Se encarga de controlar el acceso a los datos*/
+	
+	public String usuario;
+	private String pass;
+	
+	void saludo() {
+		System.out.println("Hola mi nombre es: " +this.usuario +" y mi password: " +this.pass);
+	}
+}

@@ -1,0 +1,19 @@
+package main;
+
+public class pasoParametros {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		float resultado;
+		triangulo triangle = new triangulo();
+		
+		
+		triangle.altura = 10.3f;
+		triangle.base = 5.2f;
+		
+		resultado = triangle.area;
+		System.out.println(resultado);
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package main;
+
+public class triangulo {
+	
+	float base;
+	float altura;
+	float area;
+	
+	float calculaArea(){
+		area = base*altura;
+		return area;
+	}
+}

@@ -1,0 +1,17 @@
+package main;
+
+public class modAcceso {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		usuario user = new usuario();
+		user.usuario = "Dieguito23";
+		//no es posible acceder al password ya que es private
+		//user.pass = "megustaelqueso";
+		
+		user.saludo();
+
+	}
+
+}

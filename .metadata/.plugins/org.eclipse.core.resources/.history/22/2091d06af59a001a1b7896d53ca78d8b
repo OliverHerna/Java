@@ -1,0 +1,19 @@
+package main;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Usuario Jerry = new Usuario();
+		
+		Jerry.nombre = "Jerry";
+		Jerry.edad = 19;
+		Jerry.pais = "México";
+		
+		System.out.println("Nombre: "+ Jerry.nombre);
+		System.out.println("Edad: "+ Jerry.edad);
+		System.out.println("Pais: "+ Jerry.pais);
+		
+	}
+
+}

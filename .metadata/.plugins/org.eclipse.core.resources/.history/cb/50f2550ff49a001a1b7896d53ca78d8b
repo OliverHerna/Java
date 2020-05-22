@@ -1,0 +1,19 @@
+package primerArray;
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Ejemplo arreglo de Strings
+		
+		String nombres[];
+		nombres = new String[3];
+		
+		nombres[0] = "Chuchita";
+		nombres[1] = "Aureliano";
+		nombres[2] = "Ursula";
+
+	}
+
+}
